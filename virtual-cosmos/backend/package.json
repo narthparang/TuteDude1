@@ -1,0 +1,19 @@
+{
+  "name": "virtual-cosmos-backend",
+  "version": "1.0.0",
+  "description": "Backend for Virtual Cosmos - real-time proximity-based 2D virtual environment",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
